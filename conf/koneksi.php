@@ -2,10 +2,8 @@
 
 $con=mysqli_connect("localhost","root","","penjualan");
 
-// if($con){
-//     echo "sukses";
-// }else{
-//     echo "gagal";
+// if (mysqli_connect_errno()){
+//     echo "Koneksi database gagal" . mysqli_connect_error();
 // }
 
 
